@@ -259,7 +259,7 @@ footer.site-footer {
   color: var(--ink-soft);
 }
 
-@media (max-width: 767px) {
+@media (max-width: 800px) {
   .header-inner { 
     flex-direction: column; 
     gap: 0.5rem; 
