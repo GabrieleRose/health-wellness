@@ -259,7 +259,7 @@ footer.site-footer {
   color: var(--ink-soft);
 }
 
-@media (max-width: 680px) {
+@media (max-width: 767px) {
   .header-inner { 
     flex-direction: column; 
     gap: 0.5rem; 
@@ -416,6 +416,14 @@ footer.site-footer {
 .coming-soon p{
   color:var(--ink-soft);
   font-size:1.1rem;
+}
+
+.post-date{
+  display:block;
+  margin-top:0.9rem;
+  font-size:0.85rem;
+  color:var(--ink-soft);
+  letter-spacing:0.03em;
 }
 
 @media (prefers-reduced-motion: reduce) {
